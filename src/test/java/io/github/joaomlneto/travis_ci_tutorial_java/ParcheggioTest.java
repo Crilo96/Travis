@@ -8,7 +8,7 @@ import org.junit.*;
 public class ParcheggioTest {
 	
 	@Test
-	void testMCDC() {
+	public void testMCDC() {
 	
 		//Creo l'oggetto e controllo che non sia nullo
 		Parcheggio p = new Parcheggio();
