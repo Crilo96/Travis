@@ -1,11 +1,9 @@
-package io.github.Crilo96.PARKING_Travis;
+package io.github.joaomlneto.travis_ci_tutorial_java;
 
 import java.util.*;
 
 import static org.junit.Assert.*;
 import org.junit.*;
-
-import io.github.Crilo96.PARKING_Travis.Parcheggio;
 
 public class ParcheggioTest {
 	
@@ -31,7 +29,7 @@ public class ParcheggioTest {
 		//Controllo che il garage non sia pieno
 		assertFalse(p.pieno());
 		
-		//Controllo le altre situazioni in cui il garage non è pieno
+		//Controllo le altre situazioni in cui il garage non Ã¨ pieno
 		assertTrue(p.scegliPosto(0));
 		assertFalse(p.pieno());
 		assertTrue(p.scegliPosto(1));
