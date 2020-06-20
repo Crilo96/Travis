@@ -1,4 +1,4 @@
-package io.github.Crilo96.PARKING_Travis;
+package io.github.joaomlneto.travis_ci_tutorial_java;
 
 public class Parcheggio {
 	
@@ -21,7 +21,7 @@ public class Parcheggio {
 				return true;
 			}
 			
-			//Posso modificare il parcheggio 1 solo se 2 è vuoto
+			//Posso modificare il parcheggio 1 solo se 2 Ã¨ vuoto
 			if(num==1 && !garage[2]) 
 			{
 				garage[num]=!garage[num];
@@ -40,7 +40,7 @@ public class Parcheggio {
 	
 	public boolean pieno()
 	{
-		//Il parcheggio è pieno sse tutti i posti sono occupati
+		//Il parcheggio Ã¨ pieno sse tutti i posti sono occupati
 		if(garage[0] && garage[1] && garage[2])
 		{
 			return true;
